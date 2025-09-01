@@ -11,3 +11,4 @@ An ATTiny85-based frequency multiplier for use in 1984-1985 Pontiac Fieros for d
 ## Building
 This project is designed to use Platformio and VSCode. Detailed build instructions are to come; Make sure to burn fuses and bootloader before uploading the project to the chip.
 
+#THIS PROJECT WAS PROUDLY MADE WITHOUT THE USE OF "AI" OR LLM CHATBOTS.

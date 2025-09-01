@@ -69,9 +69,9 @@
       (subtractmaskfromsilk false)
       (outputformat 1)
       (mirror false)
-      (drillshape 1)
+      (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "")
+      (outputdirectory "Gerbers/")
     )
   )
 
@@ -941,6 +941,9 @@
   (gr_line (start 124.5 64) (end 147.5 64) (layer "Edge.Cuts") (width 0.1) (tstamp bb0b200f-97b5-4b85-9d3e-f261c06f513b))
   (gr_text "INTERNAL CUT OUT" (at 139.5 125.5 90) (layer "Cmts.User") (tstamp 573a7869-bd80-49d7-912a-54a8b3b079df)
     (effects (font (size 0.5 0.5) (thickness 0.1)))
+  )
+  (gr_text "EDGE CONNECTOR\n" (at 135.905 134.08) (layer "F.Fab") (tstamp e48db66f-db38-4442-859e-0480490d6ec6)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
 
   (segment (start 133.155 116.845) (end 133.5 116.5) (width 0.25) (layer "F.Cu") (net 1) (tstamp 9c8aead3-f1e5-465e-9a65-68bbd47506f4))
