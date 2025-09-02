@@ -1041,7 +1041,7 @@
   (symbol (lib_id "Device:R_US") (at 166.37 101.6 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 0990bf38-93cd-4680-b1f3-9aa8f7a7fb7e)
-    (property "Reference" "R6" (id 0) (at 166.37 104.14 90))
+    (property "Reference" "R2" (id 0) (at 166.37 104.14 90))
     (property "Value" "10k" (id 1) (at 166.37 106.68 90))
     (property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" (id 2) (at 166.624 100.584 90)
       (effects (font (size 1.27 1.27)) hide)
@@ -1056,7 +1056,7 @@
   (symbol (lib_id "Device:R_US") (at 147.32 88.9 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 1451c18a-2697-4398-be98-795ddefcac69)
-    (property "Reference" "R5" (id 0) (at 147.32 91.44 90))
+    (property "Reference" "R3" (id 0) (at 147.32 91.44 90))
     (property "Value" "10k" (id 1) (at 147.32 93.98 90))
     (property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" (id 2) (at 147.066 89.916 90)
       (effects (font (size 1.27 1.27)) hide)
@@ -1182,7 +1182,7 @@
   (symbol (lib_id "Device:R_US") (at 166.37 93.98 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 5ad76ee9-d22a-4977-9fe3-f53cc3046e1e)
-    (property "Reference" "R2" (id 0) (at 166.37 96.52 90))
+    (property "Reference" "R1" (id 0) (at 166.37 96.52 90))
     (property "Value" "100" (id 1) (at 166.37 99.06 90))
     (property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" (id 2) (at 166.624 92.964 90)
       (effects (font (size 1.27 1.27)) hide)
@@ -1375,16 +1375,16 @@
       (reference "Q2") (unit 1) (value "2N7000") (footprint "Package_TO_SOT_THT:TO-92_Inline")
     )
     (path "/5ad76ee9-d22a-4977-9fe3-f53cc3046e1e"
-      (reference "R2") (unit 1) (value "100") (footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal")
+      (reference "R1") (unit 1) (value "100") (footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal")
+    )
+    (path "/0990bf38-93cd-4680-b1f3-9aa8f7a7fb7e"
+      (reference "R2") (unit 1) (value "10k") (footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal")
+    )
+    (path "/1451c18a-2697-4398-be98-795ddefcac69"
+      (reference "R3") (unit 1) (value "10k") (footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal")
     )
     (path "/b0b762ba-571b-460b-b2f4-e951ef430218"
       (reference "R4") (unit 1) (value "10k") (footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal")
-    )
-    (path "/1451c18a-2697-4398-be98-795ddefcac69"
-      (reference "R5") (unit 1) (value "10k") (footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal")
-    )
-    (path "/0990bf38-93cd-4680-b1f3-9aa8f7a7fb7e"
-      (reference "R6") (unit 1) (value "10k") (footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal")
     )
     (path "/00dad84e-2b59-4ab3-a10a-0bf5ebd3823c"
       (reference "U1") (unit 1) (value "L78L05_TO92") (footprint "Package_TO_SOT_THT:TO-92_Inline")
